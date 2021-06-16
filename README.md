@@ -28,7 +28,7 @@
           🔸git commit creará una instantánea de los cambios y la guardará en el directorio git.
           🔸git commit –m “El mensaje que acompaña al commit va aquí”
           Ten en cuenta que los cambios confirmados no llegarán al repositorio remoto.
-config
+#config
 
           🔸git config puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario y tipo de formato, etc. Por           ejemplo, el siguiente comando se usa para establecer un email:
           🔸git config --global user.email tuemail@ejemplo.com
@@ -39,7 +39,7 @@ config
           🔸git push se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto. Aquí está la estructura básica del código:
           🔸git push  origin <master>
           Reemplaza <master> con la rama en la que quieres enviar los cambios cuando no quieras enviarlos a la rama maestra.
-ramas
+#ramas
 
           🔸 git checkout crea ramas y te ayuda a navegar entre ellas. Por ejemplo, el siguiente comando crea una nueva y automáticamente se cambia a ella:
           command git checkout -b <branch-name>
@@ -53,10 +53,11 @@ ramas
           🔸git remote <nombre-del-repositorio>
           🔸git branch se usa para listar, crear o borrar ramas. Por ejemplo, si quieres listar todas las ramas presentes en el repositorio, el comando                   debería verse así:
           🔸 git branch
-          Si quieres borrar una rama, usa:
-          🔸git branch -d <branch-name>
           
- pull 
+          Si quieres borrar una rama, usa:
+          🔸git branch -D <branch-name>
+          
+ #pull 
  
           🔸git pull fusiona todos los cambios que se han hecho en el repositorio local con el directorio de trabajo local.
           🔸git pull
@@ -75,7 +76,7 @@ ramas
           Author: Alex Hunter <alexh@gmail.com>
           Date:   Mon Oct 1 12:56:29 2016 -0600
           
-   reset
+   #reset
    
           🔸git reset sirve para resetear el index y el directorio de trabajo al último estado de confirmación.
           🔸git reset - -hard HEAD
@@ -86,7 +87,7 @@ ramas
           🔸 git show se usa para mostrar información sobre cualquier objeto git.
           🔸git show
           
-   fetch
+   #fetch
    
           🔸git fetch le permite al usuario buscar todos los objetos de un repositorio remoto que actualmente no se encuentran en el directorio de trabajo                local.
           🔸git fetch origin
@@ -99,7 +100,7 @@ ramas
           🔸gitk muestra la interfaz gráfica para un repositorio local. Simplemente ejecuta:
          🔸gitk
          
-  git instaweb
+  #git instaweb
   
          🔸git instaweb te permite explorar tu repositorio local en la interfaz GitWeb. Por ejemplo:
          🔸git instaweb –http=webrick
