@@ -16,9 +16,10 @@
   𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐆𝐈𝐓 𝐛𝐚́𝐬𝐢𝐜𝐨𝐬
   # para hacer un push a un repo existente
   ```bash
-     git remote add origin https://github.com/GabrielBrufau/prueva_vercel.__BORRAR__.git
-     git branch -M main
-     git push -u origin main
+     git remote add origin URL_del_repositorio
+     gid add .
+     git commit -m 'start'
+     git push origin master
   ```
   
   
