@@ -20,7 +20,12 @@
      gid add .
      git commit -m 'start'
      git push origin master
+     
   ```
+  # git new
+ ```bash
+     git config --global --list
+ ```
   
   
   
