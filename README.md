@@ -72,6 +72,8 @@
           
           Si quieres borrar una rama, usa:
           🔸git branch -D <branch-name>
+          si queremos cambiarle de nombre
+          git branch -m "nombredelaramavieja" "nombredelaramanew"
           
  #pull 
  
