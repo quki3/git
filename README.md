@@ -8,16 +8,31 @@ Para configurar el nombre de usuario y el email que se va a utilizar como autor 
 `check` con `git config -l`
 # crear repositorios
 Un repositorio es una carpeta oculta llamada .git(para ver los archivos ocultos usamos `ls -al`) que mantiene el historial de los cambios de un proyecto
+ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐆𝐈𝐓 𝐛𝐚́𝐬𝐢𝐜𝐨𝐬
 ```http
 git init //? Crea el repositorio .git
 git add //?
-git commit -m 'primer commit' //?
+git commit -m 'primer commit' //? guarda los cambios
+git comit `Esc` `:wq`//? guarda los cambios
 git log //? permite ver el historial de commit de un repositorio
+git log -p//? te da mas datos del commit
+git status //? nos da un panorama de el estado de el trabajo
+git checkout --nombreDelArchivo //? descarta los cambios 
+git diff nombredelarchivo//? para veer las diferencias de los cambios que hemos hecho 
+pwd //? para ver en que directorio estamos
+cat archivoDeTexto.txt //? permite ver el contenido de un archivo de texto
+```
+# Ramas
+```http
+git branch //? lista las ramas
+git branch nombredelarama //? crea una rama
+git checkout nombredelarama //? para moverse entre ramas
+
 ```
 
 
 
-  𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐆𝐈𝐓 𝐛𝐚́𝐬𝐢𝐜𝐨𝐬
+ 
   # para hacer un push a un repo existente
   ```bash
      git remote add origin URL_del_repositorio
