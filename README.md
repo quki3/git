@@ -22,11 +22,13 @@ git diff nombredelarchivo//? para veer las diferencias de los cambios que hemos 
 pwd //? para ver en que directorio estamos
 cat archivoDeTexto.txt //? permite ver el contenido de un archivo de texto
 ```
-# Ramas
+# Ramas comandos mas usados
 ```http
 git branch //? lista las ramas
 git branch nombredelarama //? crea una rama
 git checkout nombredelarama //? para moverse entre ramas
+git pull origin nombreDeRamaEnLaQueEstamos //? traemos todos los cambios de la rama
+git merge nombreDeLaRamaQueQueremosIgualar //? igualamos las ramas
 
 ```
 
