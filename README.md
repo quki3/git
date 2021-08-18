@@ -45,7 +45,15 @@ git checkout nombredelarama //? para moverse entre ramas
  ```bash
      git config --global --list
  ```
-  
+  # add
+  ```bash
+  git add . //? agrega todas las carpetas
+  git add nombredelarchivo //? agrega el archivo
+  ```
+  # stash
+  ```bash
+  git stash //? esto nos esconde los cambios en nuestro entorno de trabajo para que podamos hacer los push merge pull 
+  ```
   
   
   
@@ -116,7 +124,7 @@ git checkout nombredelarama //? para moverse entre ramas
    #reset
    
           🔸git reset sirve para resetear el index y el directorio de trabajo al último estado de confirmación.
-          🔸git reset - -hard HEAD
+          🔸git reset --hard HEAD
           🔸git rm se puede usar para remover archivos del index y del directorio de trabajo.
           🔸git rm filename.txt
           🔸git stash guardará momentáneamente los cambios que no están listos para ser confirmados. De esta manera, pudes volver al proyecto más tarde.
