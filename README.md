@@ -4,6 +4,16 @@ Para configurar el nombre de usuario y el email que se va a utilizar como autor 
 ```http
      $ git config --global user.name juancitoPerez
      $ git config --global user.email juancita@alskd.com
+     
+```
+para almacenar en cache el registro dedo en su computadora y recordar el token o contrasen:a
+```bash
+$ git config --global credential.helper cache
+```
+puedes eliminar el registro de cache de la siguiente manera
+```bash
+$ git config --global --unset credential.helper
+$ git config --system --unset credential.helper
 ```
 `check` con `git config -l`
 # crear repositorios
