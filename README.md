@@ -34,6 +34,7 @@ cat archivoDeTexto.txt //? permite ver el contenido de un archivo de texto
 ```
 # Ramas comandos mas usados
 ```http
+git branch -r //? te muestra todas las ramas ramas remotas
 git branch //? lista las ramas
 git branch nombredelarama //? crea una rama
 git checkout nombredelarama //? para moverse entre ramas
