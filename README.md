@@ -1,12 +1,29 @@
-# Git configuration
-Para configurar el nombre de usuario y el email que se va a utilizar como autor de los cambios (por defecto)
+# .__Git__ 
+*introduccion*
+- fue creado por Linus Benedict Torvalds creador de linux
+<a href="https://en.wikipedia.org/wiki/History_of_Linux">linux</a>
+- Un repositorio es una carpeta oculta llamada .git(para ver los archivos ocultos usamos `ls -al`) que mantiene el historial de los cambios de un proyecto
 
-```http
-     $ git config --global user.name juancitoPerez
-     $ git config --global user.email juancita@alskd.com
+*instalacion*
+`git-scm.com/`-> Download
+<a href="https://git-scm.com/">git</a>
+
+*configuration*
+- Para configurar el nombre de usuario y el email que se va a utilizar como autor de los cambios (por defecto)
+
+
+```bash
+       git config --list `nos muestra las configuraciones
+       que tenemos asta el momento y lo que nos falta`
+       git config --list --show-origin `nos muestra
+       donde estan esas configuraciones`
+     $ git config --global user.name "juancitoPerez" 
+     `configura el nombre de usuario`
+     $ git config --global user.email "juancita@alskd.com"
+     `configura el email`
      
 ```
-para almacenar en cache el registro dedo en su computadora y recordar el token o contrasen:a
+para almacenar en cache el registro dado en su computadora y recordar el token o contrasen:a
 ```bash
 $ git config --global credential.helper cache
 ```
@@ -16,17 +33,33 @@ $ git config --global --unset credential.helper
 $ git config --system --unset credential.helper
 ```
 `check` con `git config -l`
-# crear repositorios
-Un repositorio es una carpeta oculta llamada .git(para ver los archivos ocultos usamos `ls -al`) que mantiene el historial de los cambios de un proyecto
- 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐆𝐈𝐓 𝐛𝐚́𝐬𝐢𝐜𝐨𝐬
-```http
-git init //? Crea el repositorio .git
-git add //?
-git commit -m 'primer commit' //? guarda los cambios
+
+
+ *𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐆𝐈𝐓 𝐛𝐚́𝐬𝐢𝐜𝐨𝐬*
+```bash
+git init ` Crea el repositorio .git es un carpeta oculta`
+git add namearchivo `an:ade ese archivo a esa "base de
+ datos"`
+git add . `agrega todos los archivos que cambiaron`
+
+git commit -m 'primer commit' `manda ese commit a la base
+ de datos del control de versiones -m es para referle el mensaje`
 git comit `Esc` `:wq`//? guarda los cambios
-git log //? permite ver el historial de commit de un repositorio
+
+git push `envia a un repositorio remoto`
+
+git log nombredelarchivo` permite ver el historial de commit de un
+ repositorio `
 git log -p//? te da mas datos del commit
-git status //? nos da un panorama de el estado de el trabajo
+
+git rm --cached nombredelarchivo `quita el add, remueve los
+ cambios guardados --cached quiere decir que esta en
+  memoria ram que no esta guardado en la base de datos `
+
+git status `Nos da un panorama de el estado de el trabajo`
+git show `se usa para mostrar información sobre cualquier
+ objeto git. todos cambios historicos hechos las lineas
+ de texto cuando se hicieron los cambios o quien los a hecho `
 git checkout --nombreDelArchivo //? descarta los cambios 
 git diff nombredelarchivo//? para veer las diferencias de los cambios que hemos hecho 
 pwd //? para ver en que directorio estamos
