@@ -46,6 +46,8 @@ git commit -m 'primer commit' `manda ese commit a la base
  de datos del control de versiones -m es para referle el mensaje`
 git comit `Esc` `:wq`//? guarda los cambios
 
+git diff numerodecommit numerodecommit `compara los commit:`
+
 git push `envia a un repositorio remoto`
 
 git log nombredelarchivo` permite ver el historial de commit de un
