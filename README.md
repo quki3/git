@@ -36,6 +36,7 @@ git branch -r ` te muestra todas las ramas ramas remotas`
 git branch ` lista las ramas`
 git branch nombredelarama ` crea una rama`
 
+
 c
 git clone path `clonamos un repositorio path aqui debes poner la 
 ubicacion del repositorio ya sea remoto o local`
@@ -51,6 +52,7 @@ git checkout master nameofarchivo.ejm `vuelve a los cambios de
 la master`
 git checkout --nombreDelArchivo ` descarta los cambios `
 git checkout nombredelarama ` para moverse entre ramas`
+git checkout -b nombredelarama `crea una rama y se cambia a ella`
 
 d
 git diff numerodecommit numerodecommit `compara los commit:`
@@ -100,6 +102,8 @@ git rm --cached nombredelarchivo `quita el add, remueve los
 cambios guardados --cached quiere decir que esta en
 memoria ram que no esta guardado en la base de datos `
 
+git remote `permite ver todos los repositorios remotos`
+
 s
 git status `Nos da un panorama de el estado de el trabajo`
 
@@ -120,23 +124,7 @@ z
 
 ```
  
-#config
 
-          🔸git config puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario y tipo de formato, etc. Por           ejemplo, el siguiente comando se usa para establecer un email:
-          🔸git config --global user.email tuemail@ejemplo.com
-          La opción -global le dice a GIT que vas a usar ese correo electrónico para todos los repositorios locales. Si quieres utilizar diferentes correos             electrónicos para diferentes repositorios, usa el siguiente comando:
-          🔸git config --local user.email tuemail@ejemplo.com
-          🔸git status muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados.
-          🔸git status
-          🔸git push se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto. Aquí está la estructura básica del código:
-          🔸git push  origin <master>
-          Reemplaza <master> con la rama en la que quieres enviar los cambios cuando no quieras enviarlos a la rama maestra.
-#ramas
-
-          🔸 git checkout crea ramas y te ayuda a navegar entre ellas. Por ejemplo, el siguiente comando crea una nueva y automáticamente se cambia a ella:
-          command git checkout -b <branch-name>
-          Para cambiar de una rama a otra, sólo usa:
-          🔸git checkout <branch-name>
           🔸git remote te permite ver todos los repositorios remotos. El siguiente comando listará todas las conexiones junto con sus URLs:
           🔸git remote -v
           Para conectar el repositorio local a un servidor remoto, usa este comando:
