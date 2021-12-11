@@ -32,6 +32,9 @@ datos"`
 git add . `agrega todos los archivos que cambiaron`
 
 b
+git branch -r ` te muestra todas las ramas ramas remotas`
+git branch ` lista las ramas`
+git branch nombredelarama ` crea una rama`
 
 c
 git config --global credential.helper cache `recordar token o password`
@@ -45,6 +48,7 @@ al estado del commit de ese archivo`
 git checkout master nameofarchivo.ejm `vuelve a los cambios de 
 la master`
 git checkout --nombreDelArchivo ` descarta los cambios `
+git checkout nombredelarama ` para moverse entre ramas`
 
 d
 git diff numerodecommit numerodecommit `compara los commit:`
@@ -70,10 +74,15 @@ git log --stat `permite ver los cambios especificos que se hicieron
 en cuales archivos a partir de en cuales commit`
 
 m
+git merge nombreDeLaRamaQueQueremosIgualar ` igualamos las ramas`
+
 n
 o
 p
 git push `envia a un repositorio remoto`
+
+git pull origin nombreDeRamaEnLaQueEstamos ` traemos todos los 
+cambios de la rama`
 
 q
 
@@ -103,36 +112,6 @@ w
 x
 y
 z
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-# Ramas comandos mas usados
-```http
-git branch -r //? te muestra todas las ramas ramas remotas
-git branch //? lista las ramas
-git branch nombredelarama //? crea una rama
-git checkout nombredelarama //? para moverse entre ramas
-git pull origin nombreDeRamaEnLaQueEstamos //? traemos todos los cambios de la rama
-git merge nombreDeLaRamaQueQueremosIgualar //? igualamos las ramas
 
 ```
 
