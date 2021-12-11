@@ -37,6 +37,8 @@ git branch ` lista las ramas`
 git branch nombredelarama ` crea una rama`
 
 c
+git clone path `clonamos un repositorio path aqui debes poner la 
+ubicacion del repositorio ya sea remoto o local`
 git config --global credential.helper cache `recordar token o password`
 git config --global --unset credential.helper `elimina el cache`
 
@@ -117,19 +119,7 @@ y
 z
 
 ```
-  
-  
-  
-  
-          🔸git clone se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usa:
-          🔸git clone nombredeusuario@host:/path/to/repository
-          A la inversa, ejecuta el siguiente comando básico para copiar un repositorio local:
-          🔸git clone /path/to/repository
-          🔸git add se usa para agregar archivos al área de preparación. Por ejemplo, el siguiente comando de Git básico indexará el archivo temp.txt:
-          🔸 git add <temp.txt>
-          🔸git commit creará una instantánea de los cambios y la guardará en el directorio git.
-          🔸git commit –m “El mensaje que acompaña al commit va aquí”
-          Ten en cuenta que los cambios confirmados no llegarán al repositorio remoto.
+ 
 #config
 
           🔸git config puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario y tipo de formato, etc. Por           ejemplo, el siguiente comando se usa para establecer un email:
