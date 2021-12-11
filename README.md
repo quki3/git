@@ -2,49 +2,72 @@
 *introduccion*
 - fue creado por Linus Benedict Torvalds creador de linux
 <a href="https://en.wikipedia.org/wiki/History_of_Linux">linux</a>
-- Un repositorio es una carpeta oculta llamada .git(para ver los archivos ocultos usamos `ls -al`) que mantiene el historial de los cambios de un proyecto
+- Un repositorio es una carpeta oculta llamada .git(para ver los archivos
+- ocultos usamos `ls -al`) que mantiene el historial de los cambios de un proyecto
 
 *instalacion*
-`git-scm.com/`-> Download
+- `git-scm.com/`-> Download
 <a href="https://git-scm.com/">git</a>
 
+
 *configuration*
-- Para configurar el nombre de usuario y el email que se va a utilizar como autor de los cambios (por defecto)
-
-
+- Para configurar el nombre de usuario y el email que se va a utilizar como
+ autor de los cambios (por defecto)
 ```bash
-borrar gabrielbrufau borrar gabrielbrufau borrar gabrielbrufau borrar
-       git config --list `nos muestra las configuraciones
+     git config --list `nos muestra las configuraciones
        que tenemos asta el momento y lo que nos falta`
-       git config --list --show-origin `nos muestra
+     git config --list --show-origin `nos muestra
        donde estan esas configuraciones`
-     $ git config --global user.name "juancitoPerez" 
+     git config --global user.name "juancitoPerez" 
      `configura el nombre de usuario`
-     $ git config --global user.email "juancita@alskd.com"
+     git config --global user.email "juancita@alskd.com"
      `configura el email`
      
 ```
-para almacenar en cache el registro dado en su computadora y recordar el token o contrasen:a
-```bash
-$ git config --global credential.helper cache
-```
-puedes eliminar el registro de cache de la siguiente manera
-```bash
-$ git config --global --unset credential.helper
-$ git config --system --unset credential.helper
-```
-`check` con `git config -l`
 
-
- *𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐆𝐈𝐓 𝐛𝐚́𝐬𝐢𝐜𝐨𝐬*
+*code*
 ```bash
-git init ` Crea el repositorio .git es un carpeta oculta`
+a
 git add namearchivo `an:ade ese archivo a esa "base de
- datos"`
+datos"`
 git add . `agrega todos los archivos que cambiaron`
 
+b
+
+c
+git config --global credential.helper cache `recordar token o password`
+git config --global --unset credential.helper `elimina el cache`
 git commit -m 'primer commit' `manda ese commit a la base
- de datos del control de versiones -m es para referle el mensaje`
+de datos del control de versiones -m es para referle el mensaje`
+
+d
+e
+f
+g
+h
+i
+git init ` Crea el repositorio .git es un carpeta oculta`
+
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+
+
+
 git comit `Esc` `:wq`//? guarda los cambios
 git checkout numeroalfanumericodelcommit nameofarchivo.ejm
 git checkout master nameofarchivo.ejm `vuelve a los cambios de 
@@ -81,7 +104,8 @@ git checkout --nombreDelArchivo //? descarta los cambios
 
 git diff `estando en un repo muesta las diferencias en mi directorio
 actual y es staging `
-git diff nombredelarchivo ` para veer las diferencias de los cambios que hemos hecho`
+git diff nombredelarchivo ` para veer las diferencias de los cambios 
+que hemos hecho`
 
 
 ```
