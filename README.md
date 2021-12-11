@@ -46,6 +46,8 @@ git checkout master nameofarchivo.ejm `vuelve a los cambios de
 la master`
 
 d
+git diff numerodecommit numerodecommit `compara los commit:`
+
 e
 f
 g
@@ -56,10 +58,18 @@ git init ` Crea el repositorio .git es un carpeta oculta`
 j
 k
 l
+git log nombredelarchivo` permite ver el historial de commit de un
+repositorio `
+git log -p`   te da mas datos del commit` 
+git log --stat `permite ver los cambios especificos que se hicieron
+en cuales archivos a partir de en cuales commit`
+
 m
 n
 o
 p
+git push `envia a un repositorio remoto`
+
 q
 r
 s
@@ -73,15 +83,11 @@ z
 
 
 
-git diff numerodecommit numerodecommit `compara los commit:`
 
-git push `envia a un repositorio remoto`
 
-git log nombredelarchivo` permite ver el historial de commit de un
- repositorio `
-git log -p//? te da mas datos del commit
-git log --stat `permite ver los cambios especificos que se hicieron
-en cuales archivos a partir de en cuales commit`
+
+
+
 
 git reset numeroalfanumericodelcommit --hard`nos permite volver a una
 version anterior --hard es el mas peligroso y usado todo vuelve 
