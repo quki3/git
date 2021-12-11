@@ -71,8 +71,22 @@ p
 git push `envia a un repositorio remoto`
 
 q
+
 r
+git reset numeroalfanumericodelcommit --hard`nos permite volver a una
+version anterior --hard es el mas peligroso y usado todo vuelve 
+a su version anterior`
+git reset numeroalfanumericocommit --soft `--soft volvemos a la
+version anterior pero lo que tengamos en stageing sigue hay es 
+decir si as hecho cambios y le has dado git add . eso sigue hay`
+
+git rm --cached nombredelarchivo `quita el add, remueve los
+cambios guardados --cached quiere decir que esta en
+memoria ram que no esta guardado en la base de datos `
+
 s
+git status `Nos da un panorama de el estado de el trabajo`
+
 t
 u
 v
@@ -89,18 +103,10 @@ z
 
 
 
-git reset numeroalfanumericodelcommit --hard`nos permite volver a una
-version anterior --hard es el mas peligroso y usado todo vuelve 
-a su version anterior`
-git reset numeroalfanumericocommit --soft `--soft volvemos a la
-version anterior pero lo que tengamos en stageing sigue hay es 
-decir si as hecho cambios y le has dado git add . eso sigue hay`
 
-git rm --cached nombredelarchivo `quita el add, remueve los
- cambios guardados --cached quiere decir que esta en
-  memoria ram que no esta guardado en la base de datos `
 
-git status `Nos da un panorama de el estado de el trabajo`
+
+
 
 git show `se usa para mostrar información sobre cualquier
  objeto git. todos cambios historicos hechos las lineas
