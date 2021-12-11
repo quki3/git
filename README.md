@@ -13,6 +13,7 @@
 
 
 ```bash
+borrar gabrielbrufau borrar gabrielbrufau borrar gabrielbrufau borrar
        git config --list `nos muestra las configuraciones
        que tenemos asta el momento y lo que nos falta`
        git config --list --show-origin `nos muestra
