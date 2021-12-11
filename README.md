@@ -45,6 +45,9 @@ git add . `agrega todos los archivos que cambiaron`
 git commit -m 'primer commit' `manda ese commit a la base
  de datos del control de versiones -m es para referle el mensaje`
 git comit `Esc` `:wq`//? guarda los cambios
+git checkout numeroalfanumericodelcommit nameofarchivo.ejm
+git checkout master nameofarchivo.ejm `vuelve a los cambios de 
+la master`
 
 git diff numerodecommit numerodecommit `compara los commit:`
 
@@ -53,19 +56,33 @@ git push `envia a un repositorio remoto`
 git log nombredelarchivo` permite ver el historial de commit de un
  repositorio `
 git log -p//? te da mas datos del commit
+git log --stat `permite ver los cambios especificos que se hicieron
+en cuales archivos a partir de en cuales commit`
+
+git reset numeroalfanumericodelcommit --hard`nos permite volver a una
+version anterior --hard es el mas peligroso y usado todo vuelve 
+a su version anterior`
+git reset numeroalfanumericocommit --soft `--soft volvemos a la
+version anterior pero lo que tengamos en stageing sigue hay es 
+decir si as hecho cambios y le has dado git add . eso sigue hay`
 
 git rm --cached nombredelarchivo `quita el add, remueve los
  cambios guardados --cached quiere decir que esta en
   memoria ram que no esta guardado en la base de datos `
 
 git status `Nos da un panorama de el estado de el trabajo`
+
 git show `se usa para mostrar información sobre cualquier
  objeto git. todos cambios historicos hechos las lineas
  de texto cuando se hicieron los cambios o quien los a hecho `
+
 git checkout --nombreDelArchivo //? descarta los cambios 
-git diff nombredelarchivo//? para veer las diferencias de los cambios que hemos hecho 
-pwd //? para ver en que directorio estamos
-cat archivoDeTexto.txt //? permite ver el contenido de un archivo de texto
+
+git diff `estando en un repo muesta las diferencias en mi directorio
+actual y es staging `
+git diff nombredelarchivo ` para veer las diferencias de los cambios que hemos hecho`
+
+
 ```
 # Ramas comandos mas usados
 ```http
