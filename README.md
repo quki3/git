@@ -14,15 +14,14 @@
 - Para configurar el nombre de usuario y el email que se va a utilizar como
  autor de los cambios (por defecto)
 ```bash
-     git config --list `nos muestra las configuraciones
-       que tenemos asta el momento y lo que nos falta`
-     git config --list --show-origin `nos muestra
-       donde estan esas configuraciones`
-     git config --global user.name "juancitoPerez" 
-     `configura el nombre de usuario`
-     git config --global user.email "juancita@alskd.com"
-     `configura el email`
-     
+git config --list `nos muestra las configuraciones
+que tenemos asta el momento y lo que nos falta`
+git config --list --show-origin `nos muestra
+donde estan esas configuraciones`
+git config --global user.name "juancitoPerez" 
+`configura el nombre de usuario`
+git config --global user.email "juancita@alskd.com"
+`configura el email`   
 ```
 
 *code*
@@ -37,8 +36,14 @@ b
 c
 git config --global credential.helper cache `recordar token o password`
 git config --global --unset credential.helper `elimina el cache`
+
 git commit -m 'primer commit' `manda ese commit a la base
 de datos del control de versiones -m es para referle el mensaje`
+
+git checkout numeroalfanumericodelcommit nameofarchivo.ejm`vuelve
+al estado del commit de ese archivo`
+git checkout master nameofarchivo.ejm `vuelve a los cambios de 
+la master`
 
 d
 e
@@ -67,11 +72,6 @@ y
 z
 
 
-
-git comit `Esc` `:wq`//? guarda los cambios
-git checkout numeroalfanumericodelcommit nameofarchivo.ejm
-git checkout master nameofarchivo.ejm `vuelve a los cambios de 
-la master`
 
 git diff numerodecommit numerodecommit `compara los commit:`
 
