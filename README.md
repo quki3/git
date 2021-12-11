@@ -105,6 +105,9 @@ git show `se usa para mostrar información sobre cualquier
 objeto git. todos cambios historicos hechos las lineas
 de texto cuando se hicieron los cambios o quien los a hecho `
 
+git stash ` esto nos esconde los cambios en nuestro entorno de 
+trabajo para que podamos hacer los push merge pull `
+
 t
 u
 v
@@ -114,39 +117,10 @@ y
 z
 
 ```
-
-
-
- 
-  # para hacer un push a un repo existente
-  ```bash
-     git remote add origin URL_del_repositorio
-     gid add .
-     git commit -m 'start'
-     git push origin master
-     
-  ```
-  # git new
- ```bash
-     git config --global --list
- ```
-  # add
-  ```bash
-  git add . //? agrega todas las carpetas
-  git add nombredelarchivo //? agrega el archivo
-  ```
-  # stash
-  ```bash
-  git stash //? esto nos esconde los cambios en nuestro entorno de trabajo para que podamos hacer los push merge pull 
-  ```
   
   
   
-  𝐴𝑞𝑢𝑖́ 𝘩𝑎𝑦 𝑎𝑙𝑔𝑢𝑛𝑜𝑠 𝑐𝑜𝑚𝑎𝑛𝑑𝑜𝑠 𝑏𝑎́𝑠𝑖𝑐𝑜𝑠 𝑑𝑒 𝐺𝐼𝑇 𝑞𝑢𝑒 𝑑𝑒𝑏𝑒𝑠 𝑐𝑜𝑛𝑜𝑐𝑒𝑟:
-
-          🔸𝐠𝐢𝐭 𝐢𝐧𝐢𝐭 | 𝑐𝑟𝑒𝑎𝑟𝑎́ 𝑢𝑛 𝑛𝑢𝑒𝑣𝑜 𝑟𝑒𝑝𝑜𝑠𝑖𝑡𝑜𝑟𝑖𝑜 𝑙𝑜𝑐𝑎𝑙 𝐺𝐼𝑇.
-          𝐶𝑜𝑚𝑜 𝑎𝑙𝑡𝑒𝑟𝑛𝑎𝑡𝑖𝑣𝑎, 𝑝𝑢𝑒𝑑𝑒𝑠 𝑐𝑟𝑒𝑎𝑟 𝑢𝑛 𝑟𝑒𝑝𝑜𝑠𝑖𝑡𝑜𝑟𝑖𝑜 𝑑𝑒𝑛𝑡𝑟𝑜 𝑑𝑒 𝑢𝑛 𝑛𝑢𝑒𝑣𝑜 𝑑𝑖𝑟𝑒𝑐𝑡𝑜𝑟𝑖𝑜 𝑒𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑎𝑛𝑑𝑜 𝑒𝑙 𝑛𝑜𝑚𝑏𝑟𝑒 𝑑𝑒𝑙 𝑝𝑟𝑜𝑦𝑒𝑐𝑡𝑜:
-          🔸𝐠𝐢𝐭 𝐢𝐧𝐢𝐭 [𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨]
+  
           🔸git clone se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usa:
           🔸git clone nombredeusuario@host:/path/to/repository
           A la inversa, ejecuta el siguiente comando básico para copiar un repositorio local:
