@@ -44,9 +44,14 @@ git checkout numeroalfanumericodelcommit nameofarchivo.ejm`vuelve
 al estado del commit de ese archivo`
 git checkout master nameofarchivo.ejm `vuelve a los cambios de 
 la master`
+git checkout --nombreDelArchivo ` descarta los cambios `
 
 d
 git diff numerodecommit numerodecommit `compara los commit:`
+git diff `estando en un repo muesta las diferencias en mi directorio
+actual y es staging `
+git diff nombredelarchivo ` para veer las diferencias de los cambios 
+que hemos hecho`
 
 e
 f
@@ -87,6 +92,10 @@ memoria ram que no esta guardado en la base de datos `
 s
 git status `Nos da un panorama de el estado de el trabajo`
 
+git show `se usa para mostrar información sobre cualquier
+objeto git. todos cambios historicos hechos las lineas
+de texto cuando se hicieron los cambios o quien los a hecho `
+
 t
 u
 v
@@ -108,16 +117,11 @@ z
 
 
 
-git show `se usa para mostrar información sobre cualquier
- objeto git. todos cambios historicos hechos las lineas
- de texto cuando se hicieron los cambios o quien los a hecho `
 
-git checkout --nombreDelArchivo //? descarta los cambios 
 
-git diff `estando en un repo muesta las diferencias en mi directorio
-actual y es staging `
-git diff nombredelarchivo ` para veer las diferencias de los cambios 
-que hemos hecho`
+
+
+
 
 
 ```
