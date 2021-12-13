@@ -23,6 +23,20 @@ git config --global user.name "juancitoPerez"
 git config --global user.email "juancita@alskd.com"
 `configura el email`   
 ```
+*solucionar conflictos*
+`git status` master|MERGING
+`modificar a mano archivos`
+`git commit -am "Solucionado"`
+
+*ramas que uso*
+- main
+- hotfix
+- El movimiento de #BlackLivesMatter ha ayudado a que GitHub sustituya algunas
+palabras usadas en su plataforma con relación al racismo.
+Palabras como master, whitelist, blacklist y slave se encuentran en este proceso
+de cambio. Pero el más importante en ese momento y que ya ha empezado a tener
+efecto es que la rama master ahora se llamará main.
+main
 
 *code*
 ```bash
@@ -48,6 +62,8 @@ git config --global --unset credential.helper `elimina el cache`
 
 git commit -m 'primer commit' `manda ese commit a la base
 de datos del control de versiones -m es para referle el mensaje`
+git commit -am "ejm" `-am hace al add y el -m solo a archivos 
+con add previo`
 
 git checkout numeroalfanumericodelcommit nameofarchivo.ejm`vuelve
 al estado del commit de ese archivo`
@@ -66,6 +82,7 @@ que hemos hecho`
 
 e
 f
+git fech `hace una copia de lo que hay en el repo remoto al local`
 g
 h
 i
@@ -81,15 +98,20 @@ git log --stat `permite ver los cambios especificos que se hicieron
 en cuales archivos a partir de en cuales commit`
 
 m
-git merge nombreDeLaRamaQueQueremosIgualar ` igualamos las ramas`
+git merge nombreDeLaRamaquequeremosfucionar -m "comentario"`siempre hay que hacer
+los merge desde la rama que queremos sea pilar la que considemos 
+mas importante otra cosa importante es que este comando fuciona
+el ultimo commid de una rama con el ultimo comid de la otra si 
+pasara el caso que las mismas lineas de codigo fueron afectadas 
+por ambos dos commit eso va a dar un conflicto y alguien lo tiene 
+soluciona`
 
 n
 o
 p
 git push `envia a un repositorio remoto`
 
-git pull origin nombreDeRamaEnLaQueEstamos ` traemos todos los 
-cambios de la rama`
+git pull origin nombreDeRamaEnLaQueEstamos `hace un fech y un mergej`
 
 q
 
