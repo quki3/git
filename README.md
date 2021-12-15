@@ -9,7 +9,8 @@
 - `git-scm.com/`-> Download
 <a href="https://git-scm.com/">git</a>
 
-
+*tratar de hacer la llave publica llave pribada*
+- cap 21
 *configuration*
 - Para configurar el nombre de usuario y el email que se va a utilizar como
  autor de los cambios (por defecto)
@@ -57,6 +58,8 @@ si no funca probar con comillas`
 c
 git clone path `clonamos un repositorio path aqui debes poner la 
 ubicacion del repositorio ya sea remoto o local`
+
+git config -l muestra como esta configurado git 
 git config --global credential.helper cache `recordar token o password`
 git config --global --unset credential.helper `elimina el cache`
 
@@ -112,7 +115,8 @@ p
 git push `envia a un repositorio remoto`
 
 git pull origin nombreDeRamaEnLaQueEstamos `hace un fech y un mergej`
-
+git pull origin master --allow-unrelated-histories `fuerza el merge de
+commit`
 q
 
 r
@@ -128,6 +132,11 @@ cambios guardados --cached quiere decir que esta en
 memoria ram que no esta guardado en la base de datos `
 
 git remote `permite ver todos los repositorios remotos`
+git remote add origin https://github.com/nombre/delrepositorio `esto 
+envia el proyecto local en un repositorio remoto`
+git remote -v `muestra si tenemos un git remote `
+git remote set-url origin git@github.com:sdjfkh/nombre`cambia la url
+del repositorio remoto esto se usa para las llaves`
 
 s
 git status `Nos da un panorama de el estado de el trabajo`
