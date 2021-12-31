@@ -99,6 +99,10 @@ repositorio `
 git log -p`   te da mas datos del commit` 
 git log --stat `permite ver los cambios especificos que se hicieron
 en cuales archivos a partir de en cuales commit`
+git log --all `muestra todo lo que hemos hecho historicamente`
+git log --all --graph `muestra unas rayitas de como an fusionado las ramas`
+git log --all --graph --decorate --oneline `te muestra todo mucho mas
+comprimido`
 
 m
 git merge nombreDeLaRamaquequeremosfucionar -m "comentario"`siempre hay que hacer
@@ -113,7 +117,7 @@ n
 o
 p
 git push `envia a un repositorio remoto`
-
+git push origin --tags `manda los tag que hayamos creado`
 git pull origin nombreDeRamaEnLaQueEstamos `hace un fech y un mergej`
 git pull origin master --allow-unrelated-histories `fuerza el merge de
 commit`
@@ -144,13 +148,20 @@ git status `Nos da un panorama de el estado de el trabajo`
 git show `se usa para mostrar información sobre cualquier
 objeto git. todos cambios historicos hechos las lineas
 de texto cuando se hicieron los cambios o quien los a hecho `
+git show-branch `muestra las ramas con una pequen:a historia`
+git show-branch --all `lo mismo con un poco mas de datos`
 
 git stash ` esto nos esconde los cambios en nuestro entorno de 
 trabajo para que podamos hacer los push merge pull `
 
 t
+git tag `muestra todos los tag`
+git show-ref --tags `muestra a que commit esta conectado un tag`
 git tag 1.1.0 <instert-commitID-here> marca las versiones
-
+git tag -a v0.1 -m "comentario de las versiones" <insert-commitID-here> 
+`-a(que va a agregar un tag)`
+git tag -d nombredeltag `-d (delete) elimina el tag`
+git push origin :refs/tags/nombredeltag `para eliminerlo completamente en github`
 u
 v
 w
