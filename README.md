@@ -118,6 +118,8 @@ o
 p
 git push `envia a un repositorio remoto`
 git push origin --tags `manda los tag que hayamos creado`
+
+git pull origin nombredelaramaremotaquequeremostraer `trae una rama remota`
 git pull origin nombreDeRamaEnLaQueEstamos `hace un fech y un mergej`
 git pull origin master --allow-unrelated-histories `fuerza el merge de
 commit`
