@@ -105,12 +105,13 @@ git log --all --graph --decorate --oneline `te muestra todo mucho mas
 comprimido`
 
 m
-git merge nombreDeLaRamaquequeremosfucionar -m "comentario"`siempre hay que hacer
-los merge desde la rama que queremos sea pilar la que considemos 
-mas importante otra cosa importante es que este comando fuciona
-el ultimo commid de una rama con el ultimo comid de la otra si 
-pasara el caso que las mismas lineas de codigo fueron afectadas 
-por ambos dos commit eso va a dar un conflicto y alguien lo tiene 
+git merge nombreDeLaRamaquequeremosfucionar -m "comentario"`siempre
+hay que hacer los merge desde la rama que queremos sea pilar la 
+que considemos mas importante otra cosa importante es que este
+comando fuciona el ultimo commid de una rama con el ultimo comid 
+de la otra si pasara el caso que las mismas lineas de codigo
+fueron afectadas por ambos dos commit eso va a dar un conflicto
+y alguien lo tiene 
 soluciona`
 
 n
