@@ -119,6 +119,8 @@ o
 p
 git push `envia a un repositorio remoto`
 git push origin --tags `manda los tag que hayamos creado`
+git push --set-upstream origin namerama `Para insertar la rama actual y
+establecer el control remoto como ascendente, utilice`
 
 git pull origin nombredelaramaremotaquequeremostraer `trae una rama remota`
 git pull origin nombreDeRamaEnLaQueEstamos `hace un fech y un mergej`
