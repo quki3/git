@@ -11,6 +11,15 @@
 
 *tratar de hacer la llave publica llave pribada*
 - cap 21
+*uso*
+- main/master this branch is the one that the user see.
+- staging
+- hotfix this branch is for the bugs that have priority.
+- build Is the branch of production in this we would configure the environment of babel, webpack, docker.
+- dev this is the main branch of development, it should be ready for when it requires build without errors.
+- backend Is the branch for the backend developers.
+- frondend Is the branch for the frondend developers.
+
 *configuration*
 - Para configurar el nombre de usuario y el email que se va a utilizar como
  autor de los cambios (por defecto)
@@ -143,6 +152,8 @@ memoria ram que no esta guardado en la base de datos `
 git remote `permite ver todos los repositorios remotos`
 git remote add origin https://github.com/nombre/delrepositorio `esto 
 envia el proyecto local en un repositorio remoto`
+git remote add upstream https://repositorioremotoquequeremostraeropensurse
+git pull upstream master `eso traeria todos los cambios de ese repositorio a mi master`
 git remote -v `muestra si tenemos un git remote `
 git remote remove namedirectorioremoto `remueve el directorio remoto por 
 ejm heroku`
