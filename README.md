@@ -144,6 +144,8 @@ git remote `permite ver todos los repositorios remotos`
 git remote add origin https://github.com/nombre/delrepositorio `esto 
 envia el proyecto local en un repositorio remoto`
 git remote -v `muestra si tenemos un git remote `
+git remote remove namedirectorioremoto `remueve el directorio remoto por 
+ejm heroku`
 git remote set-url origin git@github.com:sdjfkh/nombre`cambia la url
 del repositorio remoto esto se usa para las llaves`
 
