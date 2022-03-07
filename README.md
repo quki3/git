@@ -6,6 +6,7 @@
 - ocultos usamos `ls -al`) que mantiene el historial de los cambios de un proyecto
 
 *instalacion*
+- `apt install git`
 - `git-scm.com/`-> Download
 <a href="https://git-scm.com/">git</a>
 
