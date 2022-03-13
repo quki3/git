@@ -110,9 +110,10 @@ git log -p`   te da mas datos del commit`
 git log --stat `permite ver los cambios especificos que se hicieron
 en cuales archivos a partir de en cuales commit`
 git log --all `muestra todo lo que hemos hecho historicamente`
-git log --all --graph `muestra unas rayitas de como an fusionado las ramas`
-git log --all --graph --decorate --oneline `te muestra todo mucho mas
-comprimido`
+git log --all --graph `muestra unas rayitas de como an 
+fusionado las ramas`
+git log --all --graph --decorate --oneline `te muestra
+todo mucho mas comprimido y lindo`
 
 m
 git merge nombreDeLaRamaquequeremosfucionar -m "comentario"`siempre
