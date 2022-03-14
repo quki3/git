@@ -114,6 +114,8 @@ git log --all --graph `muestra unas rayitas de como an
 fusionado las ramas`
 git log --all --graph --decorate --oneline `te muestra
 todo mucho mas comprimido y lindo`
+git log -n 1 "muestra los ultimos commit"
+
 
 m
 git merge nombreDeLaRamaquequeremosfucionar -m "comentario"`siempre
@@ -161,6 +163,8 @@ git remote remove namedirectorioremoto `remueve el directorio remoto por
 ejm heroku`
 git remote set-url origin git@github.com:sdjfkh/nombre`cambia la url
 del repositorio remoto esto se usa para las llaves`
+
+git revert numerodecomit -m 1 "1 es la ubicacion del commit"
 
 s
 git status `Nos da un panorama de el estado de el trabajo`
