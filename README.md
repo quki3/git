@@ -10,13 +10,14 @@
   let's create the first version of our code in the version history.
   so the first thing we need to do, is to set up git inside the folder project.
   > Create a folder named project
-  Some basic commands for create a folder project with terminal, move to the folder and create first version of git
+
+ Some basic commands
   ```
-  mkdir project
-  cd project
-  git init
+  mkdir project   //create a folder named project
+  cd project      //move to into the folder
+  git init        //create the first version of git
   ```
-  so now git is tracking all of the folder in project for changes.
+  So now git is tracking all of the folder in project for changes.
   all commands for use git I'm going to put in a file named <a href="">commands-git.md</a>
 
 
