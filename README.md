@@ -1,7 +1,53 @@
 # .__Git__ 
-*introduccion*
-- fue creado por Linus Benedict Torvalds creador de linux
+## __Introduction__
+
+  Was created by Linus Benedict Torvalds creator of linux
 <a href="https://en.wikipedia.org/wiki/History_of_Linux">linux</a>
+
+## __How to install Git ?__
+  The installation process is pretty simple you just to go to this page <a href="https://git-scm.com/download">https://git-scm.com/download</a>
+## __How we use git ?__
+  let's create the first version of our code in the version history.
+  so the first thing we need to do, is to set up git inside the folder project.
+  > Create a folder named project
+  Some basic commands for create a folder project with terminal, move to the folder and create first version of git
+  ```
+  mkdir project
+  cd project
+  git init
+  ```
+  so now git is tracking all of the folder in project for changes.
+  all commands for use git I'm going to put in a file named <a href="">commands-git.md</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Un repositorio es una carpeta oculta llamada .git(para ver los archivos
 - ocultos usamos `ls -al`) que mantiene el historial de los cambios de un proyecto
 
