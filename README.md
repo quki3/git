@@ -21,4 +21,11 @@
    git init        //create the first version of git
    ```
   So now git is tracking all of the folder in project for changes.
-  all commands for use git I'm going to put in a file named <a href="">commands-git.md</a>
+So this is the flow let's get started in what provides git for us.
+
+## I challenge you to follow all the exercises
+
+if you has installed git you can put `git -v` or `git --version`
+this print the git suite version that the git program came from.
+
+  all commands for use git I'm going to put in a file named <a href="./commands-git.md">commands-git.md</a>
