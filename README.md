@@ -12,4 +12,4 @@
      - a/  with this source <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">doc</a> check your configuration settings.
      - b/  With this documentation <a href="https://git-scm.com/docs/git-init">Git</a> create the first version history of our code.
      - c/ change your user name in git.
-
+     - d/ manager manual
