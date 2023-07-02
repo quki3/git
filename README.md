@@ -13,3 +13,5 @@
      - b/  With this documentation <a href="https://git-scm.com/docs/git-init">Git</a> create the first version history of our code.
      - c/ change your user name in git.
      - d/ manager manual
+     - e/ get a copy of an existing Git repository — for example, a project you’d like to
+contribute.
