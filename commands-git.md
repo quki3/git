@@ -14,7 +14,9 @@
 9. I -
 10. J -
 11. K -
-12. L -
+# [L]
+- <b>log -(inspection and comparation) <a href="https://git-scm.com/docs/git-log">doc</a> -</b> Show commit logs
+     - \synopsis\ `git log [<options>] [<revision-range>] [[--] <path>…​]`
 13. M -
 14. N -
 15. O -
