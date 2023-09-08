@@ -1,6 +1,10 @@
 0. `git`
 1. A -
-2. B -
+# [B] 
+- <b>bisect -(debuggin) <a href="https://git-scm.com/docs/git-bisect">doc</a> -</b> Use binary serch to find the commit that introduce the bug
+     - <a href= "https://www.youtube.com/watch?v=WN4G-kHfONI">tutorial Español</a>
+     - <a href= "https://www.youtube.com/watch?v=z-AkSXDqodc">tutorial English</a>
+     - \synopsis\ `git bisect <subcommand> <option>`
 3. C -
 4. D -
 5. E -
