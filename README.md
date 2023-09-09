@@ -7,6 +7,4 @@
 ## INTALLATION AND DOWNLOAD
   The installation process is pretty simple you just to go to this page <a href="https://git-scm.com/download">https://git-scm.com/download</a>
 
-## CHALLENGES
-  1. 1/ 
-     - a/  install and config of git.
+
