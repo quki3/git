@@ -5,7 +5,12 @@
      - <a href= "https://www.youtube.com/watch?v=WN4G-kHfONI">tutorial Español</a>
      - <a href= "https://www.youtube.com/watch?v=P3ZR_s3NFvM">tutorial English</a>
      - \synopsis\ `git bisect <subcommand> <option>`
-3. C -
+# [C]
+- <b>config -(setup and config) <a href="">doc</a> -</b> Get and set repository or global options
+- you can view all of your settings and where they are coming from using `git config --list --show-origin`
+- set your user name and email address. `git config --global user.name "Quki brufa"` `git config --global user.email quki@example.com`
+- set main as the default branch name do `git config --global init.defaultBranch main`
+- checking your settings `git config --list`
 4. D -
 5. E -
 6. F -
