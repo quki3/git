@@ -2,9 +2,10 @@
 1. A -
 # [B] 
 - <b>bisect -(debuggin) <a href="https://git-scm.com/docs/git-bisect">doc</a> -</b> Use binary serch to find the commit that introduce the bug
-     - <a href= "https://www.youtube.com/watch?v=WN4G-kHfONI">tutorial Español</a>
-     - <a href= "https://www.youtube.com/watch?v=P3ZR_s3NFvM">tutorial English</a>
-     - \synopsis\ `git bisect <subcommand> <option>`
+       - in terminal `git help bisect` show info and examples --help
+       - <a href= "https://www.youtube.com/watch?v=WN4G-kHfONI">tutorial Español</a>
+       - <a href= "https://www.youtube.com/watch?v=P3ZR_s3NFvM">tutorial English</a>
+       - \synopsis\ `git bisect <subcommand> <option>`
 # [C]
 - <b>config -(setup and config) <a href="">doc</a> -</b> Get and set repository or global options
 - you can view all of your settings and where they are coming from using `git config --list --show-origin`
@@ -15,7 +16,9 @@
 5. E -
 6. F -
 7. G -
-8. H -
+# [H]
+- <b> help || --help -(setup and config) <a href="https://git-scm.com/docs/git-help">doc</a> - </b> getting help
+       - `git help <verb>` `git <verb> --help`
 9. I -
 10. J -
 11. K -
